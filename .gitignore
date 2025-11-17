@@ -1,0 +1,42 @@
+# Node modules
+node_modules/
+
+# Build output
+.nuxt/
+.output/
+dist/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Local runtime
+coverage/
+
+# Misc
+package-lock.json
+yarn.lock
+
+# Nuxt generate output
+static/
+
+# Optional: Ignore test snapshots
+__snapshots__/
+
+# Ignore public uploads (if any)
+public/uploads/
