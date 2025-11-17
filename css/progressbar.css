@@ -1,0 +1,9 @@
+.p-progressbar {
+    height: 2px;
+    z-index: 2;
+    background-color: #e2e8f0; 
+}
+
+.p-progressbar-value {
+    background-color: black; 
+}

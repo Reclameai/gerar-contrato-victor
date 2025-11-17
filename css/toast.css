@@ -1,0 +1,90 @@
+.p-toast {
+    font-family: 'Roboto', sans-serif;
+}
+
+.p-toast-message-error {
+    background-color: #ff5335 transparent;
+}
+
+.p-toast-message .p-message-error-icon .p-toast-detail .p-toast-close-button{
+    color: #ff5335;
+}
+
+@media (max-width: 768px) {
+    .p-toast {
+        max-width: 95%;
+        font-size: 0.9em;
+        left: 50%;
+        transform: translateX(-50%); 
+    }
+    
+    .p-toast-message {
+        padding: 10px 15px;
+        border-radius: 5px;
+    }
+    
+    .p-toast-summary {
+        font-size: 1em;
+    }
+    
+    .p-toast-detail {
+        font-size: 0.8em;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1195px) {
+    .p-toast {
+        max-width: 80%;
+        font-size: 1em;
+    }
+    
+    .p-toast-message {
+        padding: 15px 20px;
+    }
+    
+    .p-toast-summary {
+        font-size: 1.2em;
+    }
+    
+    .p-toast-detail {
+        font-size: 1em;
+    }
+}
+
+@media (min-width: 1200px) {
+    .p-toast {
+        max-width: 60%;
+        font-size: 1.1em;
+    }
+    
+    .p-toast-message {
+        padding: 20px 25px;
+    }
+    
+    .p-toast-summary {
+        font-size: 1.3em;
+    }
+    
+    .p-toast-detail {
+        font-size: 1.1em;
+    }
+}
+
+@media (min-width: 2000px) {
+    .p-toast {
+        max-width: 40%;
+        font-size: 1.2em;
+    }
+    
+    .p-toast-message {
+        padding: 25px 30px;
+    }
+    
+    .p-toast-summary {
+        font-size: 1.5em;
+    }
+    
+    .p-toast-detail {
+        font-size: 1.2em;
+    }
+}
